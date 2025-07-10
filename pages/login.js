@@ -55,7 +55,7 @@ function LoginPage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-primary-950 text-primary-100">
       <h1 className="text-4xl font-semibold mb-8 text-accent-400">
-        Log in to The Wild Oasis
+        Log In {/* Changed from "Log in to The Wild Oasis" */}
       </h1>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-80">
